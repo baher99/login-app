@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Smart Login</title>
+</head>
+<body>
+    <div class="signup vh-100 ">
+
+        <div class="redirect d-none justify-content-center align-items-center p-5 flex-wrap">
+            <h2 class="text-info mb-4 text-center">Thank you for Your registration</h2>
+            <div class=" d-flex justify-content-center">
+                <p class="text-white fw-bold me-2">Please click here to</p>
+                <a class="text-white fw-bolder  " href="index.html">signin</a>
+            </div>
+        </div>
+        <div class="group w-75 mx-auto p-4 text-center ">
+            <h1 class="mx-auto ">Smart Login System</h1>
+
+            <div class="userinfo px-5 text-center ">
+                <input class="mx-auto  w-75 form-control my-3" type="text"  id="nameInput" placeholder="Enter Your Name">
+                <input class="mx-auto  w-75 form-control my-3" type="text"  id="emailInput" placeholder="Enter Your Email">
+                <input class=" mx-auto form-control w-75" type="password"  id="passwordInput" placeholder="Enter Your Password">
+    
+                <p class="text-danger my-2" id="alert"></p>
+    
+                <button onclick="getUserData()" class="signup-btn mx-auto my-4 w-75 btn-outline-info btn">signup</button>
+
+                <div class="signup-link d-flex justify-content-center">
+                    <p class="text-white fw-bold me-2">You have an account? </p>
+                    <a class="text-white fw-bolder text-decoration-none " href="index.html">signin</a>
+                </div>
+            </div>
+    </div>
+
+
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

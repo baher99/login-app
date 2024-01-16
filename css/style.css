@@ -1,0 +1,44 @@
+.login 
+{
+    background-color: #24353f !important;
+    position: relative;
+
+}
+.group
+{
+    width: 40% !important;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0) !important;
+    position: absolute;
+    top: 10%;
+    padding: 5% !important;
+}
+.group h1
+{
+    color: #17a2b8;
+    margin-bottom: 30px;
+}
+.userinfo input
+{
+background-color: transparent;
+}
+
+.body
+{
+
+    background-color: #24353f !important;
+}
+.welcome
+{
+    width: 40% !important;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0) !important;
+    position: absolute;
+    top: 10%;
+    padding: 5% !important;
+}
+.welcome h1
+{
+    font-size: 40px !important;
+
+}

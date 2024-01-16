@@ -1,0 +1,35 @@
+.signup
+{
+    background-color: #24353f !important;
+}
+.group
+{
+    width: 40% !important;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0) !important;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    padding: 5%;
+}
+.group h1
+{
+    color: #17a2b8;
+    margin: 30px 0px;
+}
+.userinfo input
+{
+background-color: transparent;
+color: aliceblue;
+
+}
+.redirect
+{
+    width: 30% !important;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0) !important;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding: 5%;
+}
